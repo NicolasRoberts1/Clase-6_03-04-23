@@ -1,0 +1,51 @@
+/*asi se comenta en css*/
+
+/*Border-radius: valor (sirve para hacer bordes redondeados)
+Box-shadow: para poner sombras
+cursor:pointer oara poner la manito cuando pasa por encima el mouse
+transition:all (tiempo) ease-in-out*/
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+
+.titulo{
+    text-align: center;
+    margin:20px;
+    padding:10px;
+    color:rgb(231, 112, 231);
+}
+main{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(33,43,227,1) 66%, rgba(158,0,255,1) 100%);
+    height: 100vh;
+}
+.caja{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    text-align: center;
+    margin-top:25px;
+    margin-left: 10.4vw;
+    border-radius: 50px;
+    box-shadow: 0px 0px 55px -10px rgba(255,0,255,1);
+    cursor: pointer;
+    background: rgb(2,0,36);
+    color:rgb(231, 112, 231);
+}
+.caja:hover{
+    transform: rotate(15deg);
+    background-color: white;
+    color:black;
+    transition: all 0.7s ease-in-out;
+}
+.caja-titulo{
+    margin-bottom: 15px;
+    background: none;
+}
+.logo{
+    width:200px;
+    height:200px;
+}
